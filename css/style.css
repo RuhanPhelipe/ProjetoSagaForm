@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Sarala', sans-serif;
+            color: #ffffff;
+        }
+
+        body{
+            font-size: 100%;
+            background: linear-gradient(40.15deg, #2c2c2c 16.62%, #000 85.61%);
+            margin-left: 50px;
+            margin-right: 50px;
+            font-family: 'Righteous', cursive;
+        }
+
+        header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            justify-content: space-around;
+            border-bottom: 0.2px solid #FFF2E7;
+        }
+
+		nav{
+            display: flex;
+            gap: 32px;
+        }
+
+        h3{
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        a{
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+		main{
+            margin-bottom: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        section{
+            align-self: center;
+            align-items: center;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300; 
+            text-align: justify;
+        }
+
+		footer{
+            padding: 32px;
+            border-top: 0.4px solid #FFF2E7;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+
+        fieldset {
+            width: 50%;
+            border: transparent;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            gap: 10px;
+        }
+
+        .container_temp {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            gap: 150px;
+        }
+
+        .card {
+            width: 400px;
+            height: 930px;
+            margin: auto;
+            border-radius: 10px;
+            overflow: hidden;         
+        }
+
+        .card__background {
+            height: 500px;
+            width: 400px;
+            background-size:  8px 8px;
+            position: relative;
+            background-size: cover;
+        }
+
+        .prim_temp {
+            background-image: url(https://preview.redd.it/d4fobngai4k21.png?auto=webp&s=9e35ddab0189a1466eec9669096f9e01a1496f3e);
+        }
+
+        .segun_temp {
+            background-image: url(https://www.themoviedb.org/t/p/original/6MlKcBSoH4dBGmk8TK2dQdPBwJf.jpg);
+            background-position: center;
+            height: 525px;
+        }
+
+        .terc_temp {
+            background-image: url(https://flxt.tmsimg.com/assets/p19551861_b_v13_aa.jpg);
+            background-position: center;
+        }
+
+        .quarta_temp {
+            background-image: url(https://assets.gadgets360cdn.com/pricee/assets/product/202202/Formula_1_Drive_to_Survive_S4-poster_1645465366.jpg);
+        }
+
+        .quinta_temp {
+            background-image: url(https://images.justwatch.com/poster/304395760/s592/season-5);
+            background-position: center;
+        }
+
+        .card__img {
+            width: 400px;
+            position: absolute;
+        }
+
+        .card__sinopse {
+            padding: 20px;
+        }
+
+        .card__sinopse h3 {
+            text-align: center;
+        }
+
+
+        .temp:hover{
+            color: #ff0000;
+            border-bottom: 0.4px solid #ffffff;
+        }
+
+		.foto_autor {
+            border-radius: 50%;
+            width: 120px; /* width of container */
+            height: 120px; /* height of container */
+            object-fit: cover;
+        }
+
+        .dados_pessoais {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dados_pessoais input {
+            width: 75%;
+            border-radius: 5px;
+            color: #000;
+        }
+
+        .dados_pessoais label, input {
+            margin-left: 30px;
+        }
+
+        .dados_pessoais #data_nasc {
+            width: 25%;
+            height: 30px;
+        }
+
+        .desc label{
+            margin-left: 30px;
+        }
+
+        .form_buttons {
+            margin-left: 30px;    
+        }
+
+        .form_buttons button {
+            background-color: #2c2c2c;
+            border-radius: 5px;
+            
+        }
+
+
+        #desc {
+            width: 75%;
+            border-radius: 5px;
+            color: #000;
+            margin-left: 30px;
+        }
+
+        #logo{            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 32px;
+        }
+
+		#logo_img{
+			height: 15%;
+			width: 15%;
+		}
+
+		#banner_div{
+            padding: 70px 0px 70px 0px;
+            align-self: center;
+        }
+
+        #banner {
+            background-image: url(http://www.essentiallysports.com/wp-content/uploads/eitwdju4-f1-image-3medium.png);
+            background-size: 100%;
+            height: 300px;
+            width: 1200px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        #button_assistir {
+            display: block;
+            background: transparent;
+            border: transparent;
+            padding: 0px;
+        }
+
+        #button_assistir a {
+            color: #ff0000;
+            font-size: 26px;
+        }
+
+		#img_autor_div{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+        }
+
+		#redes_sociais{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 10px;
+			padding: 25px;
+        }
+
+		
+
+        
+
+       
